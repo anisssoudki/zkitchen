@@ -28,6 +28,9 @@ class SearchBar extends React.Component {
                     onChange={this.onInputChange}
                     />
                 </div>
+                   <div className="item">
+                <button className="ui yellow button ">Search</button>
+                </div>
             </form>
           </div>
 
