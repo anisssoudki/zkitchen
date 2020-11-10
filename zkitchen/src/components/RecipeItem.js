@@ -15,7 +15,7 @@ return (
         
     
         
-       <h3> <a  href={recipe.display.source.sourceRecipeUrl}> {recipe.display.displayName}  instructions </a> </h3>
+       <h3> <a  href={recipe.display.source.sourceRecipeUrl} target={recipe.display.source.sourceRecipeUrl}> {recipe.display.displayName}  instructions </a> </h3>
 
       <h2>Ingredients:</h2>
          
