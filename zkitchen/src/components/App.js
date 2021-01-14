@@ -1,38 +1,24 @@
 import React from 'react';
-import SearchBar from './SearchBar'
-import Yummly from '../apis/Yummly'
-import RecipeList from './RecipeList'
+import Header from './Header'
+import Intro from './Intro'
+import Image from './Image'
+import Projects from './Projects'
+import Footer from './Footer'
+const App = () => {
+    return (
+<div>
+   <Header/>
+   <Intro/>
+ <Image/>
+    <Projects/> 
+    
+   <Footer/>      
+</div>
+    ) 
 
 
-class App extends React.Component {
 
-    state = { recipes: [], LovedRecipe: null};
-
-    onTermSubmit = async (term) => {
-        
-      const response =  await  Yummly.get("/search", {
-
-            params: {
-                q: term
-            }
-
-        });
-
-        this.setState({ recipes: response.data.feed})
-        
-};
-
-onRecipeSelect = (recipe) => {console.log(recipe)}
-
-    render() {
-        return (
-             <div className="ui container">
-                 <SearchBar onFormSubmit={this.onTermSubmit}/>
-                 <RecipeList  onRecipeSelect={this.onRecipeSelect} recipes={this.state.recipes}/>
-            
-             </div>
-        )
-    }
+    
 }
 
-export default App;
+export default App
