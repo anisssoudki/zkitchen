@@ -1,8 +1,7 @@
 /* Add a black background color to the top navigation */
 body {
-  background-color: black;
+  background-color: rgb(196, 189, 189);
 }
-
 
 .topnav {
     background-color: #333;
