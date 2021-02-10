@@ -5,7 +5,7 @@ const Image = () => {
     return (
         <div>
           <img className="img"  width="800"
-    height= "600" src="https://scontent.fbey15-1.fna.fbcdn.net/v/t1.0-9/92604993_2620285211624827_7082932873954590720_o.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_ohc=LqGm_MQjmJwAX-8dA80&_nc_ht=scontent.fbey15-1.fna&oh=4043754d44d56c1eb3423ad20e3cc349&oe=6023B6C0"/>
+    height= "600" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/92604993_2620285211624827_7082932873954590720_o.jpg?_nc_cat=108&ccb=3&_nc_sid=09cbfe&_nc_ohc=sZ7CXzesWG8AX-hlHI2&_nc_ht=scontent-lga3-1.xx&oh=769f6d1d3b6b71234537acf4461291ad&oe=604B43C0"/>
 
    
         </div>
