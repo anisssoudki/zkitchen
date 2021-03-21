@@ -5,7 +5,7 @@ const Image = () => {
     return (
         <div>
           <img className="img"  width="auto"
-   src="/me.jpg"/>
+   src="./me.jpg"/>
 
    
         </div>
