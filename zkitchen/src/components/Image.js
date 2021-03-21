@@ -5,7 +5,7 @@ const Image = () => {
     return (
         <div>
           <img className="img"  width="800"
-    height= "600" src="https://github.com/anisssoudki/img/blob/main/me.jpg?raw=true"/>
+    height= "600" src="https://raw.githubusercontent.com/anisssoudki/img/main/me.jpg?token=AOELAPCUEIY6KKIVYP75WUTAK6MYS"/>
 
    
         </div>
